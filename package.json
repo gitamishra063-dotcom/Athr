@@ -1,0 +1,13 @@
+{
+  "name": "mines-visual-capture",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Read-only browser console recorder for Mines visual assets and animations",
+  "scripts": {
+    "check": "node --check mines-capture.js && node --check tests/fixture.js && node --check tests/capture.spec.js",
+    "test": "playwright test"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.56.1"
+  }
+}
